@@ -1,0 +1,23 @@
+
+.task-list-container {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.task-list-item {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+}
+
+.task-list-item:hover {
+    background-color: #e9ecef;
+}
+
+.task-icon {
+    color: #007bff;
+}

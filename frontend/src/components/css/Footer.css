@@ -1,0 +1,48 @@
+.footer {
+    background-color: #343a40; 
+    color: grey;
+    border-top: 1px solid #495057; 
+    background-color: #997cdc;
+}
+
+.footer-heading {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+}
+
+.footer-description {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footer-links {
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: grey;
+    font-weight: 500;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-social {
+    font-size: 1.5rem;
+}
+
+.footer-social a {
+    color: grey;
+}
+
+.footer-social a:hover {
+    color: #007bff;
+}

@@ -1,0 +1,71 @@
+.dropdown-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    max-height: 200px;
+    overflow-y: auto;
+    background: white;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard1{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -20px;
+}
+.dropdown-menu {
+    max-height: 200px; 
+    overflow-y: hidden;
+    z-index: 1050;
+    position: absolute;
+}
+
+.dropdown-item {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-bottom: 1px solid #ffffff;
+}
+
+.dropdown-item:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.dropdown-item:nth-child(odd) {
+    background-color: #fffefe;
+}
+
+.dropdown-item:hover {
+    background-color: #e2e6ea;
+}
+
+.dropdown-item:last-child {
+    border-bottom: none;
+}
+.pie-chart-container {
+    width: 250px; 
+    height: 250px; 
+    margin: 0 auto; 
+}
+.my-navbar {
+    display:none !important;
+}
+.tile-pending {
+    background-color: #ffcc00; 
+}
+
+.tile-complete {
+    background-color: #4caf50; 
+}
+.react-calendar{
+    background-color:rgb(36 36 68) !important;
+   color: #ced4da !important;
+}
+

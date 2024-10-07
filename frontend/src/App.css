@@ -1,0 +1,188 @@
+html,body{
+  overflow-x: hidden;;
+  background-color:#997cdc ;
+}
+.App {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.no-shadow {
+  box-shadow: none !important;
+  border-color: #ced4da; 
+}
+
+.form-control-lg {
+  padding: 0.75rem 1.25rem;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.app-navbar{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  display: flex;
+  align-items: center;
+  background-color:#997cdc ;
+}
+.parent{
+  background-color:#997cdc ;
+
+}
+.parent1{
+  background-color: #D3C5E5;
+}
+.button-hormonious{
+  background-color: #F98866;
+}
+
+
+.custom-bg {
+ 
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.custom-bg .card {
+  background-color: #997cdc;
+}
+
+
+
+.custom-bg .form-control,
+.custom-bg .quill-editor,.ql-container,.ql.snow {
+  border-color: white;
+  color: black; 
+}
+
+.custom-bg .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+  border-radius: 0.1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
+}
+
+.pagination {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.page-item {
+  border-radius: 0.25rem;
+}
+
+.page-link {
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  color: #0e1012;
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+}
+
+.page-link:hover {
+  color: #000000;
+  background-color: #e9ecef;
+  border-color: #ddd;
+}
+
+
+.Complete {
+  
+  background-color:#0bff5c !important;
+  color: #ffffff !important; 
+  border-radius: 50%;
+  text-align: center;
+  line-height: 2rem;
+}
+
+.Complete::before {
+  content: "✅"; 
+  font-size: 1.4rem;
+}
+
+.pending {
+  background-color: #ff9e7b !important; 
+  color:#f8f8f8 !important; 
+  border-radius: 50%;
+  text-align: center;
+  line-height: 2rem;
+}
+
+.pending::before {
+  content: "🕒";
+  font-size: 1.2rem;
+}
+
+.incomplete {
+  background-color: #f82828 !important; 
+  color: #ff0000;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 3rem;
+}
+
+.incomplete::before {
+  content: "⚠️" ; 
+  font-size: 1.4rem;
+}
+.free {
+  background-color: #ffffff !important;
+  color: #d419e2; 
+  border-radius: 50%;
+  text-align: center;
+  line-height: 2rem;
+}
+
+.free::before {
+  content: "🍀";
+  font-size: 1.2rem;
+}
+
+
+.displaynone{
+  visibility: hidden;
+}
+.bootstrap-select.btn-group .dropdown-menu li a:hover {
+  color: whitesmoke !important;
+  background: #bf5279 !important;
+}
